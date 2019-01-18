@@ -16,3 +16,7 @@
 function destructivelyRemoveFirstDriver(){
   drivers.shift();
 }
+
+function appendDriver(name){
+  newarray = [...drivers, name]
+}
