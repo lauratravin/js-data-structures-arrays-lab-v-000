@@ -22,7 +22,7 @@ function appendDriver(name){
   return newarray;
 }
 
-function prependDriver(name)(name){
+function prependDriver(name){
  const newarray = [name , ...drivers];
   return newarray;
 }
